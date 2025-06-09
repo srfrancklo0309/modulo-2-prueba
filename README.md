@@ -44,6 +44,14 @@
 
 **Maquetado de la página**
 
-En este link encontraras el maquetado de la página web, este fue hecho en canva:
+En este link encontrarás el maquetado de la página web, este fue hecho en canva:
 
 ---   https://www.canva.com/design/DAGp5mrlvlk/OJp4BalMfD0dHbmBUF2dLw/edit?utm_content=DAGp5mrlvlk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton  ---
+
+**Repositorio en Github**
+
+En este link podrás ingresar al repositorio creado para esta página web en Github:
+
+---   https://github.com/srfrancklo0309/modulo-2-prueba.git  ---
+
+**Link de la página:-- https://srfrancklo0309.github.io/modulo-2-prueba/index.html --**

@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hua';
+}
+
+@font-face{
+    font-family: 'Hua';
+    src:url('./imagenes-fuentes/hua-13.ttf') format('truetype');
+}
+
+@media (max-width: 768px){
+    .header__item{
+        display:inline-flex;
+        width: 20%;
+        padding:0 10px;
+    }
+
+    .container__home h1{
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .container__all-skills{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__skills{
+        display: inline-flex;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 480px){
+    .header{
+        min-height: 90px;
+    }
+
+    .header__item{
+        display: inline-flex;
+        min-width: 30%;
+        padding:5px 5px;
+        margin: 5px;
+    }
+
+    .container__home h1{
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .container__all-skills{
+        min-width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__skills{
+        display: inline-flex;
+        text-align: center;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 60px;
+    gap: 40px;
+    background-color: white;
+}
+
+.header__item{
+    font-family: 'Hua';
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 90px;
+}
+
+.header__item:hover{
+    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 1));
+}
+
+.container__home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 91.5vh;
+    gap: 40px;
+    background-image: url(./imagenes-fuentes/fondo_about_me.jpg);
+    background-size:cover ;
+}
+
+.container__home h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.container__all-skills{
+    color: white;
+    gap: 40px;
+}
+
+.container__skills{
+    color: white;
+    font-size: 2rem;
+    padding: 0 20px;
+}
+
+footer{
+    font-family: monospace;
+    color: black;
+    bottom: 0;
+}

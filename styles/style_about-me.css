@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hua';
+}
+
+@font-face{
+    font-family: 'Hua';
+    src:url('../imagenes-fuentes/hua-13.ttf') format('truetype');
+}
+
+@media (max-width: 768px){
+    .container__about-me{
+        max-height: 90vh;
+
+    }
+
+    .header__item{
+        display:inline-flex;
+        width: 20%;
+        padding:0 10px;
+    }
+
+}
+
+@media (max-width: 480px){
+    .header{
+        min-height: 90px;
+    }
+
+    .header__item{
+        display: inline-flex;
+        min-width: 30%;
+        padding:5px 5px;
+        margin: 5px;
+    }
+
+    .container__about-me{
+        max-height: 90vh;
+    }
+
+    .container__about-me h2{
+        padding: 20px;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 60px;
+    gap: 40px;
+    background-color: black;
+}
+
+.header__item{
+    font-family: 'Hua';
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.header__item:hover{
+    filter: drop-shadow(1px 2px 2px rgb(255, 255, 255));
+}
+
+.container__about-me{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__about-me h2{
+    text-align: center; 
+    color: black;
+    font-family:"Hua";
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.container__about-me p{
+    justify-content: center;
+    text-align: center;
+    padding: 30px; 
+    color: black;
+    font-family:"Hua";
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.picture_profile{
+    display: flex;
+    justify-content: center;
+}
+
+.picture_profile img{
+    border-radius: 10%;
+    width: 300px;
+}
+
+footer{
+    font-family: monospace;
+    color: black;
+    bottom: 0;
+}

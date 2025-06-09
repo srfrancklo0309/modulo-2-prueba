@@ -55,3 +55,10 @@ En este link podrás ingresar al repositorio creado para esta página web en Git
 ---   https://github.com/srfrancklo0309/modulo-2-prueba.git  ---
 
 **Link de la página:-- https://srfrancklo0309.github.io/modulo-2-prueba/index.html --**
+
+**Información Adicional**
+
+*Nombre: Emmanuel Pérez Martínez*
+*Clan: Ritchie*
+*Correo: emmanuelperezm123@gmail.com*
+*Documento de identidad: 1033490277*

@@ -10,6 +10,16 @@
     src:url('../imagenes-fuentes/hua-13.ttf') format('truetype');
 }
 
+@media (max-width: 1024px){
+    .container__cards{
+        flex-direction: column;
+        min-width: 100%;
+    }
+    .container__box{
+        margin: 50px;
+    }
+}
+
 @media (max-width: 768px){
     .header__item{
         display:inline-flex;
